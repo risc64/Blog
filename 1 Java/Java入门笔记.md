@@ -62,7 +62,7 @@ Java Visual Machine，Java虚拟机，JVM规范、JVM运行实例。JVM执行.cl
 
 #### 1.4.1 数据类型
 
-![image-20201126193846403](C:\Users\risc6\AppData\Roaming\Typora\typora-user-images\image-20201126193846403.png)
+![image-20201126193846403](https://i.loli.net/2020/11/27/9NPs5rKxe1LiaWz.png)
 
 通常整数用int，小数用double，字符用char或String，布尔型boolean和Boolean
 
@@ -88,7 +88,7 @@ public static double add(double v1,double v2){
 
 #### 1.4.3 强制类型转换
 
-![image-20201126195433304](C:\Users\risc6\AppData\Roaming\Typora\typora-user-images\image-20201126195433304.png)
+![image-20201126195433304](https://i.loli.net/2020/11/27/aFwjgXU5MVkT3vC.png)
 
 
 
