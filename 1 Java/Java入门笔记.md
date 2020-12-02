@@ -171,13 +171,66 @@ System.out.println(str);
 
 #### 1.4.5 控制语句
 
+条件语句
 
+```
+if (conditon) {
+	// 其他语句
+}
+```
 
+```
+int a = 0;
+switch (a) {
+	case 0:
+		// a == 0 执行
+		break; // 不加break，a==0时会接着往下执行 a==1 的语句，知道跳出或结束
+	case 1：
+		// a == 1 执行
+		break;
+	default:
+		// 以上都不满足
+		break;
+}
+```
 
+循环语句
+
+```
+while (conditon) {
+	// 中断语句，如果没有中断，可以控制condition不满足跳出循环
+	if (condition1) {
+		break;
+	}
+	// 循环体
+}
+```
+
+```
+String[] strs = {"111", "222", "333"};
+for (int i = 0; i < strs.length; i++) {
+	// 循环体
+}
+foreach (String s: strs) {
+	// 循环体
+}
+```
 
 #### 1.4.6 数组
 
+```
+String[] strs = {"111", "222", "333"};
+```
 
+strs是一个String数组，数组是一个集合。strs[0]值为"111"，0为数据下标，指定了"111"在数组中的位置。
+
+循环遍历数组，输出值
+
+```
+for (int i = 0; i < strs.length; i++) {
+	System.out.println(strs[i]);
+}
+```
 
 
 
